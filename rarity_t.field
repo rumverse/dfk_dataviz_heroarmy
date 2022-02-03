@@ -1,0 +1,8 @@
+CASE 
+  WHEN rarity = "0" THEN "Common"
+  WHEN rarity = "1" THEN "Uncommon"
+  WHEN rarity = "2" THEN "Rare"
+  WHEN rarity = "3" THEN "Legendary"
+  WHEN rarity = "4" THEN "Mythical"
+  ELSE "Common"
+END
